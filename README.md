@@ -13,8 +13,11 @@ This script uses Pandoc to transform .docx to .md and Meld to compare changes.
 &nbsp;
 Script will sugest you to install needed libraries automatically, however:
 Pandoc is using to transform .docx to .md, so you can to install it manually:
-`$ sudo apt install tesseract-ocr`
+`$ sudo apt install pandoc`
 Meld is using to compare changes:
 `$ sudo apt install meld`
  - **Usage**
 ``compare_docs.sh [-o <old_version.docx>] [-n <new_version.docx>]``
+   
+Screenshots:
+![Example](/screenshots/meld.png?raw=false "Example")
