@@ -1,6 +1,6 @@
 #!/bin/bash
 
-usage="$(basename "$0") [-o <filename.docx>] [-n filename.docx] -- script to compare [o]ld and [n]ew revisions of docx documentation
+usage="$(basename "$0") [-o <old_version.docx>] [-n <new_version.docx>] -- script to compare [o]ld and [n]ew revisions of docx documentation
 
 where:
     -o  path to file with old version
